@@ -36,7 +36,7 @@ async function tvl() {
     });
 
     const stAssociatedTokenAddresses = vaults.map((vault) => {
-    const vaultPubkey = getVaultPubkey(vault);
+        const vaultPubkey = getVaultPubkey(vault);
         return getAssociatedTokenAddress(vault.supportedMint, vaultPubkey);
     });
 
