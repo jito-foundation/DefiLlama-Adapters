@@ -43,7 +43,7 @@ const JITO_VAULT_LAYOUT = struct([
     u64("lastFeeChangeSlot"),
     u64("lastFullStateUpdateSlot"),
     u16("depositFeeBps"),
-    u16("w00ithdrawalFeeBps"),
+    u16("withdrawalFeeBps"),
     u16("nextWithdrawalFeeBps"),
     u16("rewardFeeBps"),
     u16("programFeeBps"),
